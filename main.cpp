@@ -21,7 +21,7 @@ int main()
 {
     sf::RenderWindow window(sf::VideoMode(800, 600), "My window");
     sf::Texture texture;
-    if (!texture.loadFromFile("Assets/dvd.png"))
+    if (!texture.loadFromFile("dvd.png"))
     {
         //error handle
     }
